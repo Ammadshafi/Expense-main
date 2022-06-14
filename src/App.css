@@ -1,0 +1,135 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+
+.container{
+  min-height: 10vh;
+  margin: auto;
+  width: 300px;
+  box-shadow: 4px 4px 10px 9px rgba(20, 20, 20, 0.507);
+  align-items: center;
+  justify-content: center;
+  margin-top: 7vh;
+  padding: 30px;
+}
+.header{
+  text-align: center;
+}
+ul{
+  list-style: none;
+}
+.balance{
+  display: flex;
+  box-shadow: 2px 2px 20px 2px rgba(20, 20, 20, 0.507);
+  text-align: center;
+  margin-top: 20px;
+}
+.balance span{
+  font-size: 30px;
+  font-weight: bolder;
+}
+.income{
+  padding: 10px 30px;
+  overflow: hidden;
+  width: 50%;
+}
+.income h3{
+  color: greenyellow;
+}
+.expence{
+  padding: 10px 30px;
+  overflow: hidden;
+ width: 50%;
+border-left:2px solid black ;
+
+}
+.expence h3{
+  color: red;
+}
+.transactionhistory{
+  margin-top: 20px;
+  
+}
+.transactionhistory span{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.history{
+  max-height: 150px;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.history ul{
+
+padding: 0%;
+}
+
+.history ul li{
+font-weight: bold;
+text-transform: uppercase;
+width: 90%;
+padding: 5px 10px;
+display: flex;
+margin-top: 10px;
+justify-content: space-between;
+
+}
+.inc{
+  background-color: greenyellow;
+  color: white;
+}
+.exp{
+  background-color: red;
+  color: white;
+}
+.history ul li button{
+ background-color: transparent;
+ border: 2px solid red;
+ padding: 5px;
+ color: red;
+  
+  display: none;
+}
+.history ul li:hover{
+justify-content: center;
+background-color: black;
+}
+.history ul li:hover span{
+  display: none;
+}
+.history ul li:hover button{
+ 
+  display: flex;
+  }
+.addtransaction{
+  margin-top: 20px;
+}
+.addtransaction span{
+  font-weight: bolder;
+}
+.addtransaction form{
+  display: flex;
+  flex-direction: column;
+}
+.addtransaction form input{
+  padding: 5px 20px;
+}
+.addtransaction form label{
+  font-weight: bold;
+  margin-top: 10px;
+}
+.addtransaction form button{
+  background-color: yellowgreen;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+.total{
+  text-align: center;
+  margin-top: 20px;
+}

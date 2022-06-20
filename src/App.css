@@ -40,8 +40,9 @@ ul{
 }
 .expence{
   padding: 10px 30px;
-  overflow: hidden;
  width: 50%;
+ overflow: hidden;
+
 border-left:2px solid black ;
 
 }

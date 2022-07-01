@@ -3,14 +3,11 @@ self.addEventListener("install", (event) => {
     event.waitUntil(
         caches.open(cacheData).then((cache) => {
             cache.addAll([
-                '/bootstrap.min.css',
-                '/index.html',
                 '/',
-                '/firebase-messaging-sw.js',
-                '/manifest.json ',
-                '/static/js/bundle.js',
+                '/static/css/main.5546ede1.css',
+                '/static/js/main.fe5c3967.js',
+                '/manifest.json',
                 '/favicon.ico',
-                '/logo192.png'
             ])
         })
     )
